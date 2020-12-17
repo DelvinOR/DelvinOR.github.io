@@ -33,3 +33,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('protfolio-web-app app is running!');
   });
 });
+
+// specs file is used for testing
