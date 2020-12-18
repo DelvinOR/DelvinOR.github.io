@@ -8,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
   
   `,
   styles: [`
-  :host{  
-    display:flex;
-    justify-content: space-between;
-  }`]
+  `]
 })
 export class RightComponent implements OnInit {
 

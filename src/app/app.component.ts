@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
   <app-right></app-right>
   `,
   styles: [`
-
+  :host{  
+    display:flex;
+    justify-content: space-between;
+  }
   `]
 })
 export class AppComponent {
