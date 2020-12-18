@@ -15,8 +15,6 @@ import { Component, OnInit } from '@angular/core';
       font-weight: bold;
     }
     :host{
-      flex-basis: 0;
-      flex-grow: 1;
       flex-shrink: 1;
     }
   `]
