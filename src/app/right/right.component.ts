@@ -4,12 +4,15 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-right',
   template:`
 
-  <div>Porfolio</div>
-  
+  <div class = "left">Porfolio</div>
+  <hr>
   `,
   styles: [`
-    :host{
-      background-color: #FFE4C4;
+    .left{
+      text-align: left;
+      font-size: 150%;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
     }
   `]
 })

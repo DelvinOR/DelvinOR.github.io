@@ -4,14 +4,27 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-left',
   template:`
 
-  <div>Delvin Ortiz</div>
-  
+  <div class = "left">Delvin Ortiz</div>
+  <br>
+  <div>
+    <p class = "paragraph">Welcome to my portfolio! My name is Delvin Ortiz
+    I am a reject graduate from Rutgers University</p>
+  </div>
   `,
   styles: [`
-    :host{
-      background-color: #FFE4C4;
+    .left{
+      text-align: left;
+      font-size: 150%;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #6495ED;
     }
-  }`]
+    .paragraph{
+      text-align:left;
+      font-size 20px;
+      font-family: Arial, sans-serif;
+    }
+  `]
 })
 export class LeftComponent implements OnInit {
 
