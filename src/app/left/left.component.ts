@@ -2,7 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-left',
-  templateUrl: './left.component.html',
+  template:`
+
+  <div>Delvin Ortiz</div>
+  
+  `,
   styleUrls: ['./left.component.css']
 })
 export class LeftComponent implements OnInit {
