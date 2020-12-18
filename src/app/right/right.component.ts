@@ -14,6 +14,11 @@ import { Component, OnInit } from '@angular/core';
       font-family: Arial, sans-serif;
       font-weight: bold;
     }
+    :host{
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
   `]
 })
 export class RightComponent implements OnInit {

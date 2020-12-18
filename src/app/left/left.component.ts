@@ -24,6 +24,11 @@ import { Component, OnInit } from '@angular/core';
       font-size 20px;
       font-family: Arial, sans-serif;
     }
+    :host{
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
   `]
 })
 export class LeftComponent implements OnInit {

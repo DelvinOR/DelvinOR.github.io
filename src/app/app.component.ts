@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   <app-right></app-right>
   `,
   styles: [`
-  :host{  
+  :host{    
     display:flex;
     justify-content: space-evenly;
   }
