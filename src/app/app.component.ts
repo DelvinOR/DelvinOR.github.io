@@ -4,18 +4,27 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template:`
   <div [class] = "displayClass">
-    <app-left></app-left>
-    <app-right></app-right>
+    <app-left class = "left"></app-left>
+    <app-right class = "right"></app-right>
   </div>
   `,
   styles: [`
-    .disp-flex{
+    .disp-container{
       display: flex;
-      background-color: #F0F8FF
+      justify-content: space-between;
+      background-color: #F0F8FF;
+    }
+
+    .left{
+      flex-grow: 1;
+    }
+
+    .right{
+      flex-grow: 1;
     }
   `]
 })
 export class AppComponent {
   public title = 'Delvin Ortiz';
-  public displayClass = ".disp-flex"
+  public displayClass = ".disp-container";
 }
