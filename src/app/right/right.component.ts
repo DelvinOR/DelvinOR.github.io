@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   <div>Porfolio</div>
   
   `,
-  styles: [``]
+  styles: [`
+  :host{  
+    display:flex;
+    justify-content: space-between;
+  }`]
 })
 export class RightComponent implements OnInit {
 

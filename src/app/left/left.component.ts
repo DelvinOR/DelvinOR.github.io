@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   <div>Delvin Ortiz</div>
   
   `,
-  styleUrls: ['./left.component.css']
+  styles: [`
+  :host{  
+    display:flex;
+    justify-content: space-between;
+  }`]
 })
 export class LeftComponent implements OnInit {
 
