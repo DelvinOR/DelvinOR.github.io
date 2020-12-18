@@ -9,7 +9,6 @@ import { Component } from '@angular/core';
   styles: [`
   :host{  
     display:flex;
-    justify-content: space-between;
   }
   `]
 })
