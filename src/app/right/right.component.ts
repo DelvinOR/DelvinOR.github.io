@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   
   `,
   styles: [`
+    :host{
+      background-color: #FFE4C4;
+    }
   `]
 })
 export class RightComponent implements OnInit {
