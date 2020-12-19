@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   <div class = "left">Delvin Ortiz</div>
   <br>
   <div>
-    <p class = "paragraph">Welcome to my portfolio! My name is Delvin Ortiz
-    I am a reject graduate from Rutgers University</p>
+    <img src = "/home/delvin/Desktop/Internship and Job/Portfolio/DelvinOR.github.io/assets/images/profile_picture.jpg" alt = "Profile headshot">
+    
+    <p class = "paragraph">Welcome to my portfolio! My name is Delvin. 
+    I am a recent graduate from Rutgers University. Currently, I aspire 
+    to obtain a position in software engineering or application development.
+    To improve my app development skills, I build software projects that can 
+    be commercialized.</p>
   </div>
   `,
   styles: [`
@@ -20,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
       color: #6495ED;
     }
     .paragraph{
-      text-align:left;
+      text-align: left;
       font-size 20px;
       font-family: Arial, sans-serif;
     }

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   `,
   styles: [`
   :host{    
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
   }
   `]
