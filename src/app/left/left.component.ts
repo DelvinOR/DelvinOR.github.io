@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <div class = "left">Delvin Ortiz</div>
   <br>
 
-  <img class = "center" src = "../../../assets/images/profile_picture.jpg" alt = "Profile headshot">
+  <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
   <br>
   <p class = "paragraph">Welcome to my portfolio! My name is Delvin. 
     I am a recent graduate from Rutgers University. Currently, I aspire 
@@ -27,6 +27,7 @@ import { Component, OnInit } from '@angular/core';
   </p>
   <br>
   <a href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
+  <br>
   <a href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
   `,
   styles: [`
@@ -52,7 +53,7 @@ import { Component, OnInit } from '@angular/core';
 
     :host{
       flex-shrink: 1;
-      width: 30%;
+      width: 25%;
     }
   `]
 })
