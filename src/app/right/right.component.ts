@@ -14,6 +14,11 @@ import { Component, OnInit } from '@angular/core';
       font-family: Arial, sans-serif;
       font-weight: bold;
     }
+
+    .text{
+      font-size = 15px;
+    }
+
     :host{
       flex-shrink: 1;
       width: 30%;

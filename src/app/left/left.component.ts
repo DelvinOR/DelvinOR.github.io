@@ -9,13 +9,12 @@ import { Component, OnInit } from '@angular/core';
 
   <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
   <br>
-  <p class = "paragraph">Welcome to my portfolio! My name is Delvin. 
+  <p class = "paragraph text">Welcome to my portfolio! My name is Delvin. 
     I am a recent graduate from Rutgers University. Currently, I aspire 
     to obtain a position in software engineering or application development and 
     to one day work in the space industry.
   </p>
-  <br>
-  <p class = "paragraph"> My strong suit technologies include Java, HTML, 
+  <p class = "paragraph text"> My strong suit technologies include Java, HTML, 
     CSS, TypeScript/JavaScript, and SQL. One of my main expertise is android 
     app development. Currently, I have one app published in the Google Play Store 
     titled "Distance Converter" which is a single page educational app for 
@@ -26,9 +25,10 @@ import { Component, OnInit } from '@angular/core';
     single page website.
   </p>
   <br>
-  <a href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
+  <a class = "text" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
   <br>
-  <a href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
+  <br>
+  <a class = "text" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
   `,
   styles: [`
     .left{
@@ -51,9 +51,14 @@ import { Component, OnInit } from '@angular/core';
       border-radius: 50%;
     }
 
+    .text{
+      font-size = 15px;
+    }
+    
     :host{
       flex-shrink: 1;
       width: 25%;
+      margin-right: 50px;
     }
   `]
 })
