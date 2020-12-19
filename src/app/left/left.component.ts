@@ -39,7 +39,8 @@ import { Component, OnInit } from '@angular/core';
     .center{
       display:block;
       margin: auto;
-      width: 70%;
+      width: 250px;
+      height: 250px;
       border-radius: 50%;
     }
 
@@ -48,7 +49,7 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .text-color{
-      color: #87CEFA;
+      color: #00BFFF;
     }
     
     :host{

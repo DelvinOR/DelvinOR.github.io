@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template:`
 
   <div class = "left">Porfolio</div>
-  <hr style = "color:#C0C0C0">
+  <hr style = "border-color:#D3D3D3">
   `,
   styles: [`
     .left{
