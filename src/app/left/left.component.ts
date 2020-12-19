@@ -40,12 +40,12 @@ import { Component, OnInit } from '@angular/core';
       display:block;
       margin: auto;
       width: 200px;
-      height: 200px;
+      height: 190px;
       border-radius: 50%;
     }
 
     .text{
-      font-size = 10px;
+      font-size: 15px;
     }
 
     .text-color{
