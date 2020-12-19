@@ -39,13 +39,13 @@ import { Component, OnInit } from '@angular/core';
     .center{
       display:block;
       margin: auto;
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
     }
 
     .text{
-      font-size = 12px;
+      font-size = 10px;
     }
 
     .text-color{
