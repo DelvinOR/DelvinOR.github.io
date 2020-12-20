@@ -33,19 +33,19 @@ import { Component, OnInit } from '@angular/core';
     .paragraph{
       text-align: left;
       font-size 20px;
-      font-family: Arial, sans-serif;
     }
 
     .center{
       display:block;
       margin: auto;
-      width: 200px;
-      height: 190px;
+      width: 300px;
+      height: 286px;
       border-radius: 50%;
     }
 
     .text{
       font-size: 15px;
+      font-family: Arial, sans-serif;
     }
 
     .text-color{
