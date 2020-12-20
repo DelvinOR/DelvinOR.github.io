@@ -4,14 +4,14 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-right',
   template:`
 
-  <div class = "left">Porfolio</div>
+  <div class = "left">Portfolio</div>
   <hr style = "border-color:#D3D3D3">
   `,
   styles: [`
     .left{
       text-align: left;
-      font-size: 150%;
-      font-family: Arial, sans-serif;
+      font-size: 180%;
+      font-family: "Times New Roman", sans-serif;
       font-weight: bold;
     }
 

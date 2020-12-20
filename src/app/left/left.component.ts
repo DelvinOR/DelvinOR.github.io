@@ -27,8 +27,8 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
     .left{
       text-align: left;
-      font-size: 170%;
-      font-family: Arial, sans-serif;
+      font-size: 200%;
+      font-family: "Times New Roman", sans-serif;
       font-weight: bold;
       color: #6495ED;
     }
@@ -48,7 +48,7 @@ import { Component, OnInit } from '@angular/core';
 
     .text{
       font-size: 18px;
-      font-family: Arial, sans-serif;
+      font-family: "Times New Roman", sans-serif;
     }
 
     .text-color{
