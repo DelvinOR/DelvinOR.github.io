@@ -19,7 +19,9 @@ import { Component, OnInit } from '@angular/core';
     for the first time. My favorite animated series is Robotech (1985).
   </p>
   <br>
+  <br>
   <a class = "text text-color" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
+  <br>
   <br>
   <br>
   <a class = "text text-color" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
@@ -42,7 +44,7 @@ import { Component, OnInit } from '@angular/core';
       margin: auto;
       width: 300px;
       height: 286px;
-      border: 1px solid #D3D3D3;
+      border: 2px solid #D3D3D3;
       border-radius: 50%;
     }
 
