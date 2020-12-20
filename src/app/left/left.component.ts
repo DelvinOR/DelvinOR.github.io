@@ -10,18 +10,16 @@ import { Component, OnInit } from '@angular/core';
   <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
   <br>
   <br>
-  <p class = "paragraph text">I am a recent graduate from Rutgers University. I aspire 
-    to obtain a position in software engineering or application development and 
-    to one day work in the space industry.
+  <p class = "paragraph text">4 years of experience coding software with Java, C, 
+    TypeScript/JavaScript, and Python. Posses Bachelor of Science degree in Computer 
+    Science from Rutgers University. I aspire to obtain a position in software engineering 
+    or mobile application development and to one day work in the space industry.
   </p>
-  <br>
   <p class = "paragraph text">Fun fact: In 2019. I traveled to Phoenix, AZ and enjoyed In N Out 
     for the first time. My favorite animated series is Robotech (1985).
   </p>
   <br>
-  <br>
   <a class = "text text-color" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
-  <br>
   <br>
   <br>
   <a class = "text text-color" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
@@ -49,18 +47,18 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .text{
-      font-size: 15px;
+      font-size: 18px;
       font-family: Arial, sans-serif;
     }
 
     .text-color{
-      color: #00BFFF;
+      color: #1E90FF;
     }
     
     :host{
       flex-shrink: 1;
-      width: 25%;
-      margin-right: 50px;
+      width: 15%;
+      margin-right: 75px;
     }
   `]
 })

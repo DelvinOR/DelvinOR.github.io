@@ -21,7 +21,7 @@ import { Component, OnInit } from '@angular/core';
 
     :host{
       flex-shrink: 1;
-      width: 30%;
+      width: 40%;
     }
   `]
 })
