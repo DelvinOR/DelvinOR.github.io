@@ -10,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
   <h2 class = "project-type">Android App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
   <br>
+  <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">Google Play Store link</a>
+  <br>
   <br>
   <div class = "pictures">
     <img class = "picture" src = "assets/images/project_1/Screenshot_one.png" alt = "Project 1 screenshot_1">
