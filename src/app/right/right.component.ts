@@ -7,27 +7,26 @@ import { Component, OnInit } from '@angular/core';
   <h2 class = "category">Portfolio</h2>
   <hr style = "border-color:#D3D3D3">
 
-  <div>
-    <h2 class = "project-type">Android App</h2>
-    <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
-    <br>
-    <div class = "pictures">
-      <img class = "picture" src = "assets/images/project_1/Screenshot_one.png" alt = "Project 1 screenshot_1">
-      <img class = "picture" src = "assets/images/project_1/Screenshot_two.png" alt = "Project 1 screenshot_2">
-      <img class = "picture" src = "assets/images/project_1/Screenshot_three.png" alt = "Project 1 screenshot_3">
-    </div>
-    <br>
+  <h2 class = "project-type">Android App</h2>
+  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_1/Screenshot_one.png" alt = "Project 1 screenshot_1">
+    <img class = "picture" src = "assets/images/project_1/Screenshot_two.png" alt = "Project 1 screenshot_2">
+    <img class = "picture" src = "assets/images/project_1/Screenshot_three.png" alt = "Project 1 screenshot_3">
   </div>
+  <br>
   <hr style = "border-color:#D3D3D3">
 
-  <div>
-    <h2 class = "project-type">Android App</h2>
-    <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Chess Game App: android chess app with screen recording functionality </a>
-    <br>
-    <div class = "pictures">
-      <img class = "picture" src = "assets/images/project_2/Screenshot_one.png" alt = "Project 2 screenshot one">
-    </div>
+  <h2 class = "project-type">Android App</h2>
+  <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Chess Game App: android chess app with screen recording functionality </a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_2/Screenshot_one.png" alt = "Project 2 screenshot one">    
   </div>
+
   <hr style = "border-color:#D3D3D3">
   `,
   styles: [`
@@ -47,7 +46,7 @@ import { Component, OnInit } from '@angular/core';
 
     .project{
       text-align: left;
-      font-size: 150%;
+      font-size: 120%;
       font-family: "Times New Roman", sans-serif;
       color: #1E90FF;
     }
@@ -55,15 +54,18 @@ import { Component, OnInit } from '@angular/core';
     .pictures{
       display: flex;
       justify-content: flex-start;
+      width: 100%;
     }
 
     .picture{
       margin-right: 10px;
+      width: 30%;
+      height: 500px;
       flex-shrink: 1;
     }
 
     .text{
-      font-size = 15px;
+      font-size: 15px;
     }
 
     :host{
