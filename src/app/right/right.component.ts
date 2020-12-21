@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 
   <div>
     <h2 class = "project-type">Android App</h2>
-    <br>
     <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
     <br>
     <div class = "pictures">
@@ -23,7 +22,6 @@ import { Component, OnInit } from '@angular/core';
 
   <div>
     <h2 class = "project-type">Android App</h2>
-    <br>
     <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Chess Game App: android chess app with screen recording functionality </a>
     <br>
     <div class = "pictures">
@@ -60,7 +58,8 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .picture{
-      margin: 10px;
+      margin-right: 10px;
+      flex-shrink: 1;
     }
 
     .text{
