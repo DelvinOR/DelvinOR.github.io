@@ -25,9 +25,23 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <div class = "pictures">
     <img class = "picture" src = "assets/images/project_2/Screenshot_one.png" alt = "Project 2 screenshot one">    
+    <img class = "picture" src = "assets/images/project_2/Screenshot_two.png" alt = "Project 2 screenshot two">    
+    <img class = "picture" src = "assets/images/project_2/Screenshot_three.png" alt = "Project 2 screenshot three">    
+    <img class = "picture" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
   </div>
 
   <hr style = "border-color:#D3D3D3">
+
+  <h2 class = "project-type">eCommerce Website</h2>
+  <a class = "project" href = "www.melanatedmartketcommerce.org" target = "_blank">Melanated Market Commerce: multi-page eCommerce site with product listing, contact form, and mailing list</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot_1">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot_2">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_three.png" alt = "Project 3 screenshot_3">
+  </div>
+  
   `,
   styles: [`
     .category{
@@ -54,6 +68,7 @@ import { Component, OnInit } from '@angular/core';
     .pictures{
       display: flex;
       justify-content: flex-start;
+      flex-flow: row wrap;
       width: 100%;
     }
 
