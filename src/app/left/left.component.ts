@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-left',
   template:`
 
-  <div class = "left">Delvin Ortiz</div>
+  <h2 class = "left">Delvin Ortiz</h2>
   <br>
   <br>
   <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
@@ -38,16 +38,17 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .center{
-      display:block;
+      display: block;
       margin: auto;
       width: 300px;
       height: 286px;
-      border: 2px solid #D3D3D3;
+      /*border: 2px solid #1E90FF;*/
+      background-color: #A9A9A9;
       border-radius: 50%;
     }
 
     .text{
-      font-size: 18px;
+      font-size: 16px;
       font-family: "Times New Roman", sans-serif;
     }
 
@@ -57,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
     
     :host{
       flex-shrink: 1;
-      width: 15%;
+      width: 20%;
       margin-right: 75px;
     }
   `]
