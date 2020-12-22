@@ -30,6 +30,7 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_2/Screenshot_two.png" alt = "Project 2 screenshot two">    
     <img class = "picture" src = "assets/images/project_2/Screenshot_three.png" alt = "Project 2 screenshot three">    
   </div>
+  <br>
   <div class = "pictures">
     <img class = "picture" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
   </div>
@@ -77,8 +78,8 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .picture{
-      margin-right: 10px;
-      width: 30%;
+      margin-right: 15px;
+      width: 33%;
       height: 500px;
       flex-shrink: 1;
     }
