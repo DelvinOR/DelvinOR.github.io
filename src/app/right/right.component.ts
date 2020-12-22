@@ -29,7 +29,9 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_2/Screenshot_one.png" alt = "Project 2 screenshot one">    
     <img class = "picture" src = "assets/images/project_2/Screenshot_two.png" alt = "Project 2 screenshot two">    
     <img class = "picture" src = "assets/images/project_2/Screenshot_three.png" alt = "Project 2 screenshot three">    
-    <img class = "picture special-pic" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
+  </div>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
   </div>
   <br>
   <hr style = "border-color:#D3D3D3">
@@ -55,14 +57,14 @@ import { Component, OnInit } from '@angular/core';
 
     .project-type{
       font-family: "Times New Roman", sans-serif;
-      font-size: 150%;
+      font-size: 120%;
       text-align: left;
       font-weight: bold;
     }
 
     .project{
       text-align: left;
-      font-size: 120%;
+      font-size: 100%;
       font-family: "Times New Roman", sans-serif;
       color: #1E90FF;
     }
@@ -79,10 +81,6 @@ import { Component, OnInit } from '@angular/core';
       width: 30%;
       height: 500px;
       flex-shrink: 1;
-    }
-
-    .special-pic{
-      margin-top: 10px;
     }
 
     .text{
