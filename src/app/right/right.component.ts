@@ -79,7 +79,7 @@ import { Component, OnInit } from '@angular/core';
 
     .picture{
       margin-right: 10px;
-      width: 30%;
+      width: 31%;
       height: 500px;
       flex-shrink: 1;
     }
