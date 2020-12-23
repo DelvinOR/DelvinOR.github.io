@@ -46,6 +46,7 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot_2">
     <img class = "picture" src = "assets/images/project_3/Screenshot_three.png" alt = "Project 3 screenshot_3">
   </div>
+  <br>
   
   `,
   styles: [`
