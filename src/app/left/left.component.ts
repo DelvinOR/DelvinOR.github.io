@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <p class = "paragraph text">4 years of experience coding software with Java, C, 
-    TypeScript/JavaScript, and Python. Posses Bachelor of Science degree in Computer 
+    TypeScript/JavaScript, and Python. Posses a Bachelor of Science degree in Computer 
     Science from Rutgers University. I aspire to obtain a position in software engineering 
     or mobile application development and to one day work in the space industry.
   </p>
