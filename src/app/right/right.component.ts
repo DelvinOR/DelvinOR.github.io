@@ -38,7 +38,7 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#000000">
 
   <h2 class = "project-type">eCommerce Website</h2>
-  <a class = "project" href = "www.melanatedmartketcommerce.org" target = "_blank">Melanated Market Commerce: multi-page eCommerce site with product listing, contact form, and mailing list</a>
+  <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Melanated Market Commerce: multi-page eCommerce site with product listing, contact form, and mailing list</a>
   <br>
   <br>
   <div class = "pictures">
