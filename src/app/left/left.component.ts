@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template:`
 
   <h2 class = "left">Delvin Ortiz</h2>
+  <hr style = "border-color:#000000">
   <br>
   <br>
   <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
