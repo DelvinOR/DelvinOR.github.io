@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template:`
 
   <h2 class = "category">Portfolio</h2>
-  <hr style = "border-color:#D3D3D3">
+  <hr style = "border-color:#000000">
 
   <h2 class = "project-type">Android App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_1/Screenshot_three.png" alt = "Project 1 screenshot_3">
   </div>
   <br>
-  <hr style = "border-color:#D3D3D3">
+  <hr style = "border-color:#000000">
 
   <h2 class = "project-type">Android App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Chess Game App: android chess app with screen recording functionality </a>
@@ -35,7 +35,7 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
   </div>
   <br>
-  <hr style = "border-color:#D3D3D3">
+  <hr style = "border-color:#000000">
 
   <h2 class = "project-type">eCommerce Website</h2>
   <a class = "project" href = "www.melanatedmartketcommerce.org" target = "_blank">Melanated Market Commerce: multi-page eCommerce site with product listing, contact form, and mailing list</a>
@@ -55,6 +55,7 @@ import { Component, OnInit } from '@angular/core';
       font-size: 180%;
       font-family: "Times New Roman", sans-serif;
       font-weight: bold;
+      color: #FFEBCD;
     }
 
     .project-type{
@@ -62,13 +63,14 @@ import { Component, OnInit } from '@angular/core';
       font-size: 120%;
       text-align: left;
       font-weight: bold;
+      color: #FFEBCD;
     }
 
     .project{
       text-align: left;
       font-size: 100%;
       font-family: "Times New Roman", sans-serif;
-      color: #1E90FF;
+      color: #00FFFF;
     }
 
     .pictures{

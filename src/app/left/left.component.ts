@@ -30,7 +30,7 @@ import { Component, OnInit } from '@angular/core';
       font-size: 200%;
       font-family: "Times New Roman", sans-serif;
       font-weight: bold;
-      color: #6495ED;
+      color: #FFEBCD;
     }
     .paragraph{
       text-align: left;
@@ -50,10 +50,11 @@ import { Component, OnInit } from '@angular/core';
     .text{
       font-size: 16px;
       font-family: "Times New Roman", sans-serif;
+      color: #F8F8FF;
     }
 
     .text-color{
-      color: #1E90FF;
+      color: #00FFFF;
     }
     
     :host{
