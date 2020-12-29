@@ -9,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">eCommerce Website</h2>
-  <p class = "paragraph">Multi-page eCommerce site with product listing, contact forms, and mailing list. 
+  <p class = "paragraph">Melananted Market is a multi-page eCommerce site with product listing, contact forms, and mailing list. 
   Front-end programmed in HTML, CSS, and JavaScript. Domain hosted on the Weebly platform.
   </p>
   <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
+  <br>
+  <br>
+  <a class = "project" href = "https://github.com/DelvinOR/Melanated-Market-Commerce" target = "_blank">Code available here</a>
   <br>
   <br>
   <div class = "pictures">
@@ -50,10 +53,10 @@ import { Component, OnInit } from '@angular/core';
   possible units of distance to convert any value to. User-interface designed in XML and 
   back-end developed in Java.
   </p>
-  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Code available here</a>
-  <br>
-  <br>
   <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">App Store Link</a>
+  <br>
+  <br>
+  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Code available here</a>
   <br>
   <br>
   <div class = "pictures">
