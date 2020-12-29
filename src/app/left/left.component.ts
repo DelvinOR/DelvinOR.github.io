@@ -5,25 +5,26 @@ import { Component, OnInit } from '@angular/core';
   template:`
 
   <h2 class = "left">Delvin Ortiz</h2>
-  <hr style = "border-color:#00FFFF">
+  <hr style = "border-color:#ADFF2F">
   <br>
   <br>
   <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
   <br>
   <br>
-  <p class = "paragraph text">4 years of experience coding software with Java, C, 
-    TypeScript/JavaScript, and Python. Posses a Bachelor of Science degree in Computer 
-    Science from Rutgers University. I aspire to obtain a position in software engineering 
-    or mobile application development and to one day work in the space industry.
+  <p class = "paragraph text">4 years of experience developing web apps and mobile android apps. Most proficient 
+  technologies include Java, XML, HTML, CSS, JavaScript/TypeScript, SQL, and Git. Knowledgeable of Linux operating 
+  system and terminal commands. Posses a Bachelor of Science degree in Computer Science from Rutgers University. 
   </p>
-  <p class = "paragraph text">Fun fact: In 2019. I traveled to Phoenix, AZ and enjoyed In N Out 
-    for the first time. My favorite animated series is Robotech (1985).
+  <p class = "paragraph text">Fun fact: This portfolio website was built over the Angular framework and utilized Angular CLI.
   </p>
   <br>
   <a class = "text text-color" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
   <br>
   <br>
   <a class = "text text-color" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
+  <br>
+  <br>
+  <a class = "text text-color"></a>
   `,
   styles: [`
     .left{
@@ -35,7 +36,6 @@ import { Component, OnInit } from '@angular/core';
     }
     .paragraph{
       text-align: left;
-      font-size 20px;
     }
 
     .center{
@@ -49,13 +49,13 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .text{
-      font-size: 16px;
+      font-size: 100%;
       font-family: "Times New Roman", sans-serif;
       color: #F8F8FF;
     }
 
     .text-color{
-      color: #00FFFF;
+      color: #ADFF2F;
     }
     
     :host{

@@ -5,11 +5,31 @@ import { Component, OnInit } from '@angular/core';
   template:`
 
   <h2 class = "category">Portfolio</h2>
-  
-  <hr style = "border-color:#00FFFF">
 
-  <h2 class = "project-type">Android App</h2>
-  <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Chess Game App: android chess app with screen recording functionality </a>
+  <hr style = "border-color:#ADFF2F">
+
+  <h2 class = "project-type">eCommerce Website</h2>
+  <p class = "paragraph">Multi-page eCommerce site with product listing, contact forms, and mailing list. 
+  Front-end programmed in HTML, CSS, and JavaScript. Domain hosted on the Weebly platform.
+  </p>
+  <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot_1">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot_2">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_three.png" alt = "Project 3 screenshot_3">
+  </div>
+  <br>
+  
+  <hr style = "border-color:#ADFF2F">
+
+  <h2 class = "project-type">Android Chess App</h2>
+  <p class = "paragraph">Fully funtional chess game app for two players. Includes
+  screen recording functionality and video vault for replaying recent matches. This project was coded in 
+  Java, XML, and utilized Git for version control.
+  </p>
+  <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Code available here</a>
   <br>
   <br>
   <div class = "pictures">
@@ -23,12 +43,17 @@ import { Component, OnInit } from '@angular/core';
   </div>
   <br>
 
-  <hr style = "border-color:#00FFFF">
+  <hr style = "border-color:ADFF2F">
 
-  <h2 class = "project-type">Android App</h2>
-  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Distance Converter: application used to change units of distance</a>
+  <h2 class = "project-type">Android Distance Converter App</h2>
+  <p class = "paragraph">Successful distance converter android app with nine different 
+  possible units of distance to convert any value to. User-interface designed in XML and 
+  back-end developed in Java.
+  </p>
+  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Code available here</a>
   <br>
-  <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">Google Play Store link</a>
+  <br>
+  <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">App Store Link</a>
   <br>
   <br>
   <div class = "pictures">
@@ -37,20 +62,6 @@ import { Component, OnInit } from '@angular/core';
     <img class = "picture" src = "assets/images/project_1/Screenshot_three.png" alt = "Project 1 screenshot_3">
   </div>
   <br>
-
-  <hr style = "border-color:#00FFFF">
-
-  <h2 class = "project-type">eCommerce Website</h2>
-  <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Melanated Market Commerce: multi-page eCommerce site with product listing, contact form, and mailing list</a>
-  <br>
-  <br>
-  <div class = "pictures">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot_1">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot_2">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_three.png" alt = "Project 3 screenshot_3">
-  </div>
-  <br>
-  
   `,
   styles: [`
     .category{
@@ -73,7 +84,14 @@ import { Component, OnInit } from '@angular/core';
       text-align: left;
       font-size: 100%;
       font-family: "Times New Roman", sans-serif;
-      color: #00FFFF;
+      color: #ADFF2F;
+    }
+
+    .paragraph{
+      text-align: left;
+      font-size: 100%;
+      font-family: "Times New Roman", sans-serif;
+      color: #FFEBCD;
     }
 
     .pictures{
