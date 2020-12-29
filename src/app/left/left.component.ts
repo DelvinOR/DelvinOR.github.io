@@ -24,7 +24,7 @@ import { Component, OnInit } from '@angular/core';
   <a class = "text text-color" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
   <br>
   <br>
-  <a class = "text text-color"></a>
+  <a class = "text text-color" href = "https://www.dropbox.com/s/3ctzyt6tn9ha18i/CS.2020.OrtizD.pdf?dl=0" target = "_blank">View My Resume</a>
   `,
   styles: [`
     .left{
