@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
   <h2 class = "project-type">eCommerce Website</h2>
   <p class = "paragraph">Melananted Market is a multi-page eCommerce site with product listing, contact forms, and mailing list. 
-  Front-end programmed in HTML, CSS, and JavaScript. Domain hosted on the Weebly platform.
+  Front-end programmed in HTML, CSS, and JavaScript. Domain is hosted on the Weebly platform.
   </p>
   <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
   <br>
@@ -30,7 +30,7 @@ import { Component, OnInit } from '@angular/core';
   <h2 class = "project-type">Android Chess App</h2>
   <p class = "paragraph">Fully funtional chess game app for two players. Includes
   screen recording functionality and video vault for replaying recent matches. This project was coded in 
-  Java, XML, and utilized Git for version control.
+  Java, XML, and utilizes Git for version control.
   </p>
   <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Code available here</a>
   <br>
@@ -50,8 +50,8 @@ import { Component, OnInit } from '@angular/core';
 
   <h2 class = "project-type">Android Distance Converter App</h2>
   <p class = "paragraph">Successful distance converter android app with nine different 
-  possible units of distance to convert any value to. User-interface designed in XML and 
-  back-end developed in Java.
+  possible units of distance to convert any value to. User-interface is designed in XML and 
+  back-end is developed using Java.
   </p>
   <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">App Store Link</a>
   <br>
