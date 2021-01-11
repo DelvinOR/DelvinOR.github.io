@@ -46,7 +46,7 @@ import { Component, OnInit } from '@angular/core';
   </div>
   <br>
 
-  <hr style = "border-color:ADFF2F">
+  <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">Android Distance Converter App</h2>
   <p class = "paragraph">Successful distance converter android app with nine different 
