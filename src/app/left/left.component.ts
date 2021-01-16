@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <div class = "image-container">
     <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
-  <div>
+  </div>
   <br>
   <br>
   <p class = "paragraph text">4 years of experience developing web apps and mobile android apps. Most proficient 
