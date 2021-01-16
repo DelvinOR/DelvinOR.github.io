@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
   <br>
   <br>
-  <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
+  <div class = "image-container">
+    <img class = "center" src = "assets/images/profile_headshot_shot.png" alt = "Profile headshot">
+  <div>
   <br>
   <br>
   <p class = "paragraph text">4 years of experience developing web apps and mobile android apps. Most proficient 
@@ -24,6 +26,15 @@ import { Component, OnInit } from '@angular/core';
   <a class = "text text-color" href = "https://github.com/DelvinOR" target = "_blank">View My GitHub Profile</a>
   `,
   styles: [`
+    .image-container{
+      display: flex;
+    }
+
+    .image-container > img{
+      width: 80%;
+      height: 75%;
+    }
+
     .left{
       text-align: left;
       font-size: 200%;
@@ -39,8 +50,6 @@ import { Component, OnInit } from '@angular/core';
     .center{
       display: block;
       margin: 0 auto;
-      width: 80%;
-      height: 75%;
       /*border: 2px solid #1E90FF;*/
       background-color: #A9A9A9;
       border-radius: 50%;
