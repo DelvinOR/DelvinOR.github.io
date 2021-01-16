@@ -33,13 +33,14 @@ import { Component, OnInit } from '@angular/core';
     }
     .paragraph{
       text-align: left;
+      width: 100%;
     }
 
     .center{
       display: block;
-      margin: auto;
-      width: 300px;
-      height: 286px;
+      margin: 0 auto;
+      width: 80%;
+      height: 75%;
       /*border: 2px solid #1E90FF;*/
       background-color: #A9A9A9;
       border-radius: 50%;
@@ -58,7 +59,7 @@ import { Component, OnInit } from '@angular/core';
     :host{
       flex-shrink: 1;
       width: 20%;
-      margin-right: 75px;
+      margin-right: 10%; /*Have to use percentages as using fixed width and height pixes will force elements to stick to this size*/
     }
   `]
 })
