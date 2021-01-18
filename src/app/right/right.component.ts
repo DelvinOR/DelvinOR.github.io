@@ -8,6 +8,20 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
+  <h2 class = "project-type">BuyMe Java Web App</h2>
+  <p class = "paragraph">Collaborated in a team of four programmers to deploy a Java based web app that functions like Ebay. Web content 
+  is designed in HTML with back-end programmed in Java, JDBC, and SQL to communicate with a database in MySQL.
+  </p>
+  <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1">
+  </div>
+  <br>
+
+  <hr style = "border-color:#ADFF2F">
+
   <h2 class = "project-type">eCommerce Website</h2>
   <p class = "paragraph">Melananted Market is a multi-page eCommerce site with product listing, contact forms, and mailing list. 
   Front-end is designed in HTML5, CSS3, and JavaScript. Site is SEO optimized and compatible on mobile device screens.
@@ -43,26 +57,6 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <div class = "pictures">
     <img class = "picture" src = "assets/images/project_2/Screenshot_four.png" alt = "Project 2 screenshot four">    
-  </div>
-  <br>
-
-  <hr style = "border-color:#ADFF2F">
-
-  <h2 class = "project-type">Android Distance Converter App</h2>
-  <p class = "paragraph">Successful distance converter android app with nine different 
-  possible units of distance to convert any value to. User-interface is designed in XML and 
-  back-end is developed using Java.
-  </p>
-  <a class = "project" href = "https://play.google.com/store/apps/details?id=com.delvinortiz.distanceconversion" target = "_blank">App Store Link</a>
-  <br>
-  <br>
-  <a class = "project" href = "https://github.com/DelvinOR/distance-conversion-app" target = "_blank">Code available here</a>
-  <br>
-  <br>
-  <div class = "pictures">
-    <img class = "picture" src = "assets/images/project_1/Screenshot_one.png" alt = "Project 1 screenshot_1">
-    <img class = "picture" src = "assets/images/project_1/Screenshot_two.png" alt = "Project 1 screenshot_2">
-    <img class = "picture" src = "assets/images/project_1/Screenshot_three.png" alt = "Project 1 screenshot_3">
   </div>
   <br>
   `,

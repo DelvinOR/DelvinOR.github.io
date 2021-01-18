@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
   technologies include Java, XML, HTML, CSS, JavaScript/TypeScript, SQL, and Git. Knowledgeable of Linux operating 
   system and terminal commands. Posses a Bachelor of Science degree in Computer Science from Rutgers University. 
   </p>
-  <p class = "paragraph text">Fun fact: This portfolio website was built over the Angular framework and utilized Angular CLI.
+  <p class = "paragraph text">Fun fact: This portfolio website was built over the Angular framework and utilizes the Angular CLI.
   </p>
   <br>
   <a class = "text text-color" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
