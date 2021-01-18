@@ -10,8 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
   <h2 class = "project-type">eCommerce Website</h2>
   <p class = "paragraph">Melananted Market is a multi-page eCommerce site with product listing, contact forms, and mailing list. 
-  Front-end is designed in HTML5, CSS3, and JavaScript with domain hosted on the Weebly platform. Optimized with SEO techniques and
-  mobile device compatibility.
+  Front-end is designed in HTML5, CSS3, and JavaScript. Site is SEO optimized and compatible on mobile device screens.
   </p>
   <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
   <br>
