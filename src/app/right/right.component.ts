@@ -18,7 +18,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <div class = "pictures">
-    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139603381_690445024979975_1825790677424311375_n.png?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=i3qjpR_-rxgAX_kDU0E&_nc_ht=scontent-lga3-2.xx&oh=1a572c034f706070f890bc0c7833395b&oe=602D7586" target = "_blank"><img style = "width:100%" src = "assets/images/project_4/PokemonAPIClient_Screenshot.png" alt = "Project 4 screenshot_1"></a>
+    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139227973_1197937680603131_5857407624052042018_n.png?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=jam0ujAvti8AX-dHbnj&_nc_ht=scontent-lga3-2.xx&oh=349a76c22c7d9e206f72b8be12702848&oe=602B68EB" target = "_blank"><img style = "width:100%" src = "assets/images/project_4/PokemonAPIClient_Screenshot.png" alt = "Project 4 screenshot_1"></a>
   </div>
   <br>
 
