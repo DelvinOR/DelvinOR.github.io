@@ -8,15 +8,31 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
+  <h2 class = "project-type">Pokémon REST API Client</h2>
+  <p class = "paragraph">A Spring Boot application that communicates with the PokéAPI web service and outputs details about a pokemon. 
+  The selection is specified by the integer id parameter at the end of the URL header. For example, "https://pokeapi.co/api/v2/pokemon/1" 
+  will output information about Bulbasaur. Ids range from 1 to 1118. Connection is made possible through the implementation of Java and 
+  the RestTemplate Spring library.
+  </p>
+  <a class = "project" href = "https://github.com/DelvinOR/Pokemon-API-Client" target = "_blank">Code available here</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139603381_690445024979975_1825790677424311375_n.png?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=i3qjpR_-rxgAX_kDU0E&_nc_ht=scontent-lga3-2.xx&oh=1a572c034f706070f890bc0c7833395b&oe=602D7586" target = "_blank"><img style = "width:100%" src = "assets/images/project_4/PokemonAPIClient_Screenshot.png" alt = "Project 4 screenshot_1"></a>
+  </div>
+  <br>
+
+  <hr style = "border-color:#ADFF2F">
+
   <h2 class = "project-type">BuyMe Java Web App</h2>
-  <p class = "paragraph">Collaborated in a team of four programmers to deploy a Java based web app that functions like Ebay. Web content 
-  is designed in HTML with back-end programmed in Java, JDBC, and SQL to communicate with a database in MySQL.
+  <p class = "paragraph">Collaborated with three programmers to deploy a Java based web app that functions like Ebay. Web content 
+  is designed in HTML with back-end programmed using Java, JDBC, and SQL to communicate with a database in MySQL.
   </p>
   <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
   <br>
   <br>
   <div class = "pictures">
-    <img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1">
+    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139601923_166422581907843_2189226753393645875_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=7qw4v195VB0AX-jzMif&_nc_ht=scontent-lga3-2.xx&oh=def70ebe82b16b424636fd96083702e3&oe=602DBA97" target = "_blank"><img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1"></a>
   </div>
   <br>
 

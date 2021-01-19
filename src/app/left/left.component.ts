@@ -32,7 +32,7 @@ import { Component, OnInit } from '@angular/core';
 
     .image-container > img{
       width: 80%;
-      height: 90%;
+      height: 95%;
     }
 
     .left{
