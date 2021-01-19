@@ -13,11 +13,11 @@ import { Component, OnInit } from '@angular/core';
   </div>
   <br>
   <br>
-  <p class = "paragraph text">4 years of experience developing web apps and mobile android apps. Most proficient 
-  technologies include Java, XML, HTML, CSS, JavaScript/TypeScript, SQL, and Git. Knowledgeable of Linux operating 
-  system and terminal commands. Posses a Bachelor of Science degree in Computer Science from Rutgers University. 
+  <p class = "paragraph text">Four years of programming experience. Most proficient 
+  technologies include Java, HTML, CSS, JavaScript, SQL, and Git. Knowledgeable with Linux Ubuntu and terminal commands. 
+  Posses a Bachelor of Science degree in Computer Science from Rutgers University. 
   </p>
-  <p class = "paragraph text">Fun fact: This portfolio website was built over the Angular framework and utilizes the Angular CLI.
+  <p class = "paragraph text">Fun fact: This website was built over the Angular framework and utilizes the Angular CLI.
   </p>
   <br>
   <a class = "text text-color" href = "https://www.linkedin.com/in/delvinoritz/" target = "_blank">View My LinkedIn Profile</a>
@@ -31,8 +31,8 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .image-container > img{
-      width: 75%;
-      height: 100%;
+      width: 80%;
+      height: 110%;
     }
 
     .left{

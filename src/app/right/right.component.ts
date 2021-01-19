@@ -9,11 +9,6 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">Pokémon REST API Client</h2>
-  <p class = "paragraph">A Spring Boot application that communicates with the PokéAPI web service and outputs details about a pokemon. 
-  The selection is specified by the integer id parameter at the end of the URL header. For example, "https://pokeapi.co/api/v2/pokemon/1" 
-  will output information about Bulbasaur. Ids range from 1 to 1118. Connection is made possible through the implementation of Java and 
-  the RestTemplate Spring library.
-  </p>
   <a class = "project" href = "https://github.com/DelvinOR/Pokemon-API-Client" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -25,9 +20,6 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">BuyMe Java Web App</h2>
-  <p class = "paragraph">Collaborated with three programmers to deploy a Java based web app that functions like Ebay. Web content 
-  is designed in HTML with back-end programmed using Java, JDBC, and SQL to communicate with a database in MySQL.
-  </p>
   <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -39,9 +31,6 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">eCommerce Website</h2>
-  <p class = "paragraph">Melananted Market is a multi-page eCommerce site with product listing, contact forms, and mailing list. 
-  Front-end is designed in HTML5, CSS3, and JavaScript. Site is SEO optimized and compatible on mobile device screens.
-  </p>
   <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
   <br>
   <br>
@@ -58,10 +47,6 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">Android Chess App</h2>
-  <p class = "paragraph">Fully funtional chess game app for two players. Includes
-  screen recording functionality and video vault for replaying recent matches. This project is coded in 
-  Java, XML, and utilizes Git for version control.
-  </p>
   <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Code available here</a>
   <br>
   <br>
