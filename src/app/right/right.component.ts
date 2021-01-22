@@ -13,10 +13,10 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <div class = "pictures">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot one">    
+    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/140076405_214917526959742_4567978583872251986_n.png?_nc_cat=104&ccb=2&_nc_sid=ae9488&_nc_ohc=GzVeHB1W4FEAX_kl0lK&_nc_ht=scontent-lga3-2.xx&oh=2f3d1b7226a2d98c70b082e6ad6b17a3&oe=60309864" target = "_blank"><img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot one"></a>    
   </div>
   <div class = "pictures">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot two">   
+    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/140210217_265147998364448_7427147972188746034_n.png?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=5vkzbYkArP4AX8IZkQ6&_nc_ht=scontent-lga3-2.xx&oh=a36c742a2081300c219b1c964594a79f&oe=602F9771" target = "_blank"><img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot two"></a>   
   </div> 
   <br>
 
