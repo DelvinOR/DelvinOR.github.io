@@ -8,7 +8,21 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
-  <h2 class = "project-type">Pokémon REST API Client</h2>
+  <h2 class = "project-type">Candidate Manager</h2>
+  <a class = "project" href = "https://github.com/DelvinOR/CandidateSpringMVC" target = "_blank">Code available here</a>
+  <br>
+  <br>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot one">    
+  </div>
+  <div class = "pictures">
+    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot two">   
+  </div> 
+  <br>
+
+  <hr style = "border-color:#ADFF2F">
+
+  <h2 class = "project-type">PokéAPI REST Client</h2>
   <a class = "project" href = "https://github.com/DelvinOR/Pokemon-API-Client" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -19,28 +33,12 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
-  <h2 class = "project-type">BuyMe Java Web App</h2>
+  <h2 class = "project-type">BuyMe Web App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
   <br>
   <br>
   <div class = "pictures">
     <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139601923_166422581907843_2189226753393645875_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=7qw4v195VB0AX-jzMif&_nc_ht=scontent-lga3-2.xx&oh=def70ebe82b16b424636fd96083702e3&oe=602DBA97" target = "_blank"><img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1"></a>
-  </div>
-  <br>
-
-  <hr style = "border-color:#ADFF2F">
-
-  <h2 class = "project-type">eCommerce Website</h2>
-  <a class = "project" href = "http://www.melanatedmarketcommerce.org/#/" target = "_blank">Website</a>
-  <br>
-  <br>
-  <a class = "project" href = "https://github.com/DelvinOR/Melanated-Market-Commerce" target = "_blank">Code available here</a>
-  <br>
-  <br>
-  <div class = "pictures">
-    <img class = "picture" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 2 screenshot one">    
-    <img class = "picture" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 2 screenshot two">    
-    <img class = "picture" src = "assets/images/project_3/Screenshot_three.png" alt = "Project 2 screenshot three">    
   </div>
   <br>
   
