@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
-  <h2 class = "project-type">Candidate Manager</h2>
+  <h2 class = "project-type">Candidate Manager Web App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/CandidateSpringMVC" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
 
   <hr style = "border-color:#ADFF2F">
 
-  <h2 class = "project-type">BuyMe Web App</h2>
+  <h2 class = "project-type">BuyMe Java Web App</h2>
   <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
   <br>
   <br>
