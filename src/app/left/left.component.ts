@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <p class = "paragraph text">Four years of programming experience. Most proficient 
-  technologies include Java, HTML, CSS, JavaScript, SQL, and Git. 
+  technologies include Java, JavaScript, Spring, REST APIs, SQL, and Git. 
   Posses a Bachelor of Science degree in Computer Science from Rutgers University. 
   </p>
   <p class = "paragraph text">Fun fact: This website was built over the Angular framework and utilizes the Angular CLI.
