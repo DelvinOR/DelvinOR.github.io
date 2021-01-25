@@ -28,11 +28,12 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
     .image-container{
       display: flex;
+      width: 100%;
     }
 
     .image-container > img{
-      width: 80%;
-      height: 110%;
+      width: 75%;
+      height: 80%;
     }
 
     .left{
