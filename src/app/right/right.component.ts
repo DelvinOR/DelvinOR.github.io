@@ -9,12 +9,14 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">Candidate Manager Web App</h2>
-  <ul>
-    <li><div class = "paragraph">SpringMVC application to create, retrieve, update, and delete (CRUD) candidate records to a database in MySQL</div></li>
-    <li><div class = "paragraph">Successfully adds over 50 records of candidates</div></li>
-    <li><div class = "paragraph">Unit and integration testing performed with JUnit, Mockito, and Spring Test</div></li>
-    <li><div class = "paragraph">View designed in JSP and backend programmed with Java, Spring Data JPA, and Hibernate</div></li>
-  </ul>
+
+  <div>
+    <div class = "paragraph">SpringMVC application to create, retrieve, update, and delete (CRUD) candidate records to a database in MySQL</div> <br>
+    <div class = "paragraph">Successfully adds over 50 records of candidates</div> <br>
+    <div class = "paragraph">Unit and integration testing performed with JUnit, Mockito, and Spring Test</div> <br>
+    <div class = "paragraph">View designed in JSP and backend programmed with Java, Spring Data JPA, and Hibernate</div> <br>
+  </div>
+  <br>
   <a class = "project" href = "https://github.com/DelvinOR/CandidateSpringMVC" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -30,11 +32,12 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">PokéAPI REST Client</h2>
-  <ul>
-    <li><div class = "paragraph">Spring Boot application that communicates with PokéAPI and outputs a Pokemon JSON object</div></li>
-    <li><div class = "paragraph">Programmed in Java and utilizes Spring Web MVC</div></li>
-    <li><div class = "paragraph">Compiled with Maven and executed as jar file</div></li>
-  </ul>
+  <div>
+    <div class = "paragraph">Spring Boot application that communicates with PokéAPI and outputs a Pokemon JSON object</div> <br>
+    <div class = "paragraph">Programmed in Java and utilizes Spring Web MVC</div> <br>
+    <div class = "paragraph">Compiled with Maven and executed as jar file</div> <br>
+  </div>
+  <br>
   <a class = "project" href = "https://github.com/DelvinOR/Pokemon-API-Client" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -46,10 +49,11 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">BuyMe Java Web App</h2>
-  <ul>
-    <li><div class = "paragraph">Worked heavily with a team of programmers to deploy an e-commerce web app using AWS</div></li>
-    <li><div class = "paragraph">Technologies include Java, JSP, and JDBC to communicate with a database in MySQL</div></li>
-  </ul>
+  <div>
+    <div class = "paragraph">Worked heavily with a team of programmers to deploy an e-commerce web app using AWS</div> <br>
+    <div class = "paragraph">Technologies include Java, JSP, and JDBC to communicate with a database in MySQL</div> <br>
+  </div>
+  <br>
   <a class = "project" href = "https://github.com/DelvinOR/BuyMe" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -61,10 +65,11 @@ import { Component, OnInit } from '@angular/core';
   <hr style = "border-color:#ADFF2F">
 
   <h2 class = "project-type">Android Chess App</h2>
-  <ul>
-    <li><div class = "paragraph">Functional chess game app with screen recording functionality</div></li>
-    <li><div class = "paragraph">Programmed with Java and designed in XML</div></li>
-  </ul>
+  <div>
+    <div class = "paragraph">Functional chess game app with screen recording functionality</div> <br>
+    <div class = "paragraph">Programmed with Java and designed in XML</div> <br>
+  </div>
+  <br>
   <a class = "project" href = "https://github.com/DelvinOR/android-chess-game" target = "_blank">Code available here</a>
   <br>
   <br>
@@ -101,18 +106,6 @@ import { Component, OnInit } from '@angular/core';
       font-size: 100%;
       font-family: "Times New Roman", sans-serif;
       color: #ADFF2F;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    ul li::before {
-      content: "\2022";
-      color: #F8F8FF;
-      font-weight: bold;
-      width: 1em;
-      margin-left: -1em;
     }
 
     paragraph {
