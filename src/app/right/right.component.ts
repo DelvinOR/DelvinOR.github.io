@@ -111,7 +111,7 @@ import { Component, OnInit } from '@angular/core';
     .paragraph {
       font-size: 100%;
       font-family: "Times New Roman", sans-serif;
-      color: #FFEBCD;
+      color: #F8F8FF;
     }
 
     .pictures{
