@@ -108,7 +108,7 @@ import { Component, OnInit } from '@angular/core';
       color: #ADFF2F;
     }
 
-    paragraph {
+    .paragraph {
       font-size: 100%;
       font-family: "Times New Roman", sans-serif;
       color: #FFEBCD;
