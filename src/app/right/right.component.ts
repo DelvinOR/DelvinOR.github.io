@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
   <h2 class = "project-type">Candidate Manager Web App</h2>
 
   <div>
-    <div class = "paragraph">SpringMVC application to create, retrieve, update, and delete (CRUD) candidate records to a database in MySQL</div> <br>
+    <div class = "paragraph">Spring MVC application to create, retrieve, update, and delete (CRUD) candidate records to a database in MySQL</div> <br>
     <div class = "paragraph">Successfully adds over 50 records of candidates</div> <br>
     <div class = "paragraph">Unit and integration testing performed with JUnit, Mockito, and Spring Test</div> <br>
     <div class = "paragraph">View designed in JSP and backend programmed with Java, Spring Data JPA, and Hibernate</div> <br>
