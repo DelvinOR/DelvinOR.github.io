@@ -21,11 +21,11 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <div class = "pictures">
-    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/141376473_410910473325886_7801251247185027616_n.png?_nc_cat=105&ccb=2&_nc_sid=ae9488&_nc_ohc=GRyPooUPEXEAX-uRJsq&_nc_oc=AQlmuDLHx_A7licNEn78SnsDNiyN1RI2GWZg2GcsJqa0gk6kOzyRU51-HmMIbRNZLR8&_nc_ht=scontent-lga3-2.xx&oh=65e4fd50d5ce687fd8330017e895c089&oe=6033609A" target = "_blank"><img style = "width:100%" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot one"></a>    
+    <a href = "https://i.ibb.co/sKn0988/cmwa-1.png" target = "_blank"><img style = "width:100%" src = "assets/images/project_3/Screenshot_one.png" alt = "Project 3 screenshot one"></a>    
   </div>
   <br>
   <div class = "pictures">
-    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/140210217_265147998364448_7427147972188746034_n.png?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=5vkzbYkArP4AX8IZkQ6&_nc_ht=scontent-lga3-2.xx&oh=a36c742a2081300c219b1c964594a79f&oe=602F9771" target = "_blank"><img style = "width:100%" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot two"></a>   
+    <a href = "https://i.ibb.co/5TZ5jw0/cmwa-2.png" target = "_blank"><img style = "width:100%" src = "assets/images/project_3/Screenshot_two.png" alt = "Project 3 screenshot two"></a>   
   </div> 
   <br>
 
@@ -42,7 +42,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <div class = "pictures">
-    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139227973_1197937680603131_5857407624052042018_n.png?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_ohc=jam0ujAvti8AX-dHbnj&_nc_ht=scontent-lga3-2.xx&oh=349a76c22c7d9e206f72b8be12702848&oe=602B68EB" target = "_blank"><img style = "width:100%" src = "assets/images/project_4/PokemonAPIClient_Screenshot.png" alt = "Project 4 screenshot_1"></a>
+    <a href = "https://i.ibb.co/ySDmMsc/Pokemon-APIClient-Screenshot.png" target = "_blank"><img style = "width:100%" src = "assets/images/project_4/PokemonAPIClient_Screenshot.png" alt = "Project 4 screenshot_1"></a>
   </div>
   <br>
 
@@ -58,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <br>
   <div class = "pictures">
-    <a href = "https://scontent-lga3-2.xx.fbcdn.net/v/t1.15752-9/139601923_166422581907843_2189226753393645875_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_ohc=7qw4v195VB0AX-jzMif&_nc_ht=scontent-lga3-2.xx&oh=def70ebe82b16b424636fd96083702e3&oe=602DBA97" target = "_blank"><img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1"></a>
+    <a href = "https://i.ibb.co/hFmGcDr/Buy-Me-Screenshot.png" target = "_blank"><img style = "width:100%" src = "assets/images/project_1/BuyMe_Screenshot.png" alt = "Project 1 screenshot_1"></a>
   </div>
   <br>
   

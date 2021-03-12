@@ -32,7 +32,7 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .image-container > img{
-      width: 75%;
+      width: 70%;
       height: 80%;
     }
 
@@ -50,7 +50,8 @@ import { Component, OnInit } from '@angular/core';
 
     .center{
       display: block;
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
       /*border: 2px solid #1E90FF;*/
       background-color: #A9A9A9;
       border-radius: 50%;
